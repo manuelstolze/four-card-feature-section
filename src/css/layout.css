@@ -1,0 +1,9 @@
+body{
+    margin: 0;
+    background-color: var(--very-light-gray);
+
+    .attribution { font-size: 11px; text-align: center; padding-bottom: 1rem; width: 100%; position: absolute; bottom: 0;}
+    .attribution a { color: var(--attribution); }
+}
+
+@media (min-width: 577px) {}
