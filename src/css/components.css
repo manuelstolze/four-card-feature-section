@@ -4,16 +4,21 @@ main {
         grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
         gap: 1.5rem;
 
+        .cards-center{
+            display: grid;
+            gap: 1.5rem;
+        }
+
         .card {
             border-radius: 4px;
-            box-shadow: 0 10px 20px 5px rgb(205, 205, 205);
+            box-shadow: 0 12px 32px 0 rgb(205, 205, 205);
             text-align: left;
             font-weight: 200;
             color: var(--grayish-blue);
             padding: 1.5rem;
 
             border-top-style: solid;
-            border-top-width: 3px;
+            border-top-width: 4px;
 
             h3 {
                 margin: 0 0 .55rem;

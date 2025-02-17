@@ -31,4 +31,38 @@ header {
 @media (min-width: 577px) {
     .attribution { font-size: 11px; text-align: center; padding-bottom: 1rem; width: 100%; position: absolute; bottom: 0;}
     .attribution a { color: var(--attribution); }
+
+    main {
+        .card-wrapper {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            grid-template-rows: 1fr;
+            /*grid-column-gap: 0;*/
+            /*grid-row-gap: 0;*/
+
+            .card {
+                max-width: 320px;
+            }
+        }
+
+        .cards-left {
+            grid-area: 1 / 1 / 2 / 2;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .cards-center {
+            grid-area: 1 / 2 / 2 / 3;
+            display: grid;
+            gap: 1.5rem;
+        }
+
+        .cards-right {
+            grid-area: 1 / 3 / 2 / 4;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    }
 }
