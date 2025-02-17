@@ -14,7 +14,7 @@ main {
             box-shadow: 0 12px 32px 0 rgb(205, 205, 205);
             text-align: left;
             font-weight: 200;
-            color: var(--grayish-blue);
+            color: var(--very-dark-blue);
             padding: 1.5rem;
 
             border-top-style: solid;
